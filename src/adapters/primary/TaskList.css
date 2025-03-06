@@ -1,0 +1,67 @@
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    margin: 8px 0;
+    background: #f8f9fa;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task.completed .task-title {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .task-label {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .task-label input {
+    margin-right: 12px;
+  }
+  
+  .task-title {
+    font-size: 16px;
+  }
+  
+  .task-date {
+    color: #6c757d;
+    font-size: 12px;
+    margin: 0 12px;
+  }
+  
+  .delete-btn {
+    background: #f8d7da;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #721c24;
+  }
+  
+  .delete-btn:hover {
+    background: #f5c6cb;
+  }
+  
+  .loading, .error, .empty-list {
+    text-align: center;
+    padding: 20px;
+    color: #6c757d;
+  }
+  
+  .error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-radius: 4px;
+  }
+  
